@@ -1,0 +1,83 @@
+{
+  "name": "i18n-file-generator",
+  "version": "1.0.0",
+  "description": "A Node.js module for generating i18n translation files effortlessly. It simplify i18n translation file management.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "i18n-file-generator": "./lib/bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prettier:check": "prettier --config .prettierrc --check src/**/*{.ts,.json}",
+    "prettier:write": "prettier --config .prettierrc --write src/**/*{.ts,.json}",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiv-source/i18n-file-generator.git"
+  },
+  "private": false,
+  "keywords": [
+    "i18n-file-generator",
+    "i18n-generator",
+    "i18n",
+    "multi-language",
+    "dynamic-18n",
+    "typescript",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Shiv Kumar",
+    "url": "https://shivkumar.me/"
+  },
+  "bugs": {
+    "url": "https://github.com/shiv-source/i18n-file-generator/issues"
+  },
+  "homepage": "https://github.com/shiv-source/i18n-file-generator#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-translate": "^3.441.0",
+    "dot-object": "^2.1.4",
+    "fs-extra": "^11.1.1",
+    "signale": "^1.4.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/dot-object": "^2.1.4",
+    "@types/fs-extra": "^11.0.3",
+    "@types/jest": "^29.5.7",
+    "@types/node": "^20.8.10",
+    "@types/signale": "^1.4.6",
+    "@types/yargs": "^17.0.29",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "semantic-release": "^22.0.7",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "lint-staged": {
+    "src/**/**": [
+      "pnpm prettier:write",
+      "pnpm lint:fix"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
