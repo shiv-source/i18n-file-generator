@@ -42,7 +42,7 @@ devDependencies:
     version: 20.8.10
   '@types/signale':
     specifier: ^1.4.6
-    version: 1.4.6
+    version: 1.4.7
   '@types/yargs':
     specifier: ^17.0.29
     version: 17.0.29
@@ -1952,8 +1952,8 @@ packages:
     resolution: {integrity: sha512-MMzuxN3GdFwskAnb6fz0orFvhfqi752yjaXylr0Rp4oDg5H0Zn1IuyRhDVvYOwAXoJirx2xuS16I3WjxnAIHiQ==}
     dev: true
 
-  /@types/signale@1.4.6:
-    resolution: {integrity: sha512-vd2s2P5D0/U+OvEsDhh2JRAKzzhr+Baa+SL2XRxacdJY8+6bh5iJS8r0TXglhO45duTZPxwpmH9lGHRGtCn8cw==}
+  /@types/signale@1.4.7:
+    resolution: {integrity: sha512-nc0j37QupTT7OcYeH3gRE1ZfzUalEUsDKJsJ3IsJr0pjjFZTjtrX1Bsn6Kv56YXI/H9rNSwAkIPRxNlZI8GyQw==}
     dependencies:
       '@types/node': 20.8.10
     dev: true
