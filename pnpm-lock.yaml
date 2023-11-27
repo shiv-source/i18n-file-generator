@@ -30,7 +30,7 @@ devDependencies:
     version: 10.0.1(semantic-release@22.0.7)
   '@types/dot-object':
     specifier: ^2.1.4
-    version: 2.1.4
+    version: 2.1.6
   '@types/fs-extra':
     specifier: ^11.0.3
     version: 11.0.3
@@ -1888,8 +1888,8 @@ packages:
       '@babel/types': 7.23.0
     dev: true
 
-  /@types/dot-object@2.1.4:
-    resolution: {integrity: sha512-9uh9F/bjSQjArB2faiK//TbjD/QyqTn0JdO3VL7eWQHf2mybhMagfVLaQJ9xNC7ndXitWVjbUJilEB+i+JM9XQ==}
+  /@types/dot-object@2.1.6:
+    resolution: {integrity: sha512-G1e4SNPOuO72ZXv7wz/W2x29CzQtpxko3G9hBiHqGg/AvFIKoArCs2nbc/WPXnnUkO+1dmvX9WQCyj5gIlAzZg==}
     dev: true
 
   /@types/fs-extra@11.0.3:
