@@ -13,7 +13,7 @@ importers:
         version: 3.441.0
       dot-object:
         specifier: ^2.1.4
-        version: 2.1.4
+        version: 2.1.5
       fs-extra:
         specifier: ^11.1.1
         version: 11.1.1
@@ -32,7 +32,7 @@ importers:
         version: 10.0.1(semantic-release@22.0.7(typescript@5.2.2))
       '@types/dot-object':
         specifier: ^2.1.4
-        version: 2.1.4
+        version: 2.1.6
       '@types/fs-extra':
         specifier: ^11.0.3
         version: 11.0.3
@@ -799,8 +799,8 @@ packages:
   '@types/babel__traverse@7.20.3':
     resolution: {integrity: sha512-Lsh766rGEFbaxMIDH7Qa+Yha8cMVI3qAK6CHt3OR0YfxOIn5Z54iHiyDRycHrBqeIiqGa20Kpsv1cavfBKkRSw==}
 
-  '@types/dot-object@2.1.4':
-    resolution: {integrity: sha512-9uh9F/bjSQjArB2faiK//TbjD/QyqTn0JdO3VL7eWQHf2mybhMagfVLaQJ9xNC7ndXitWVjbUJilEB+i+JM9XQ==}
+  '@types/dot-object@2.1.6':
+    resolution: {integrity: sha512-G1e4SNPOuO72ZXv7wz/W2x29CzQtpxko3G9hBiHqGg/AvFIKoArCs2nbc/WPXnnUkO+1dmvX9WQCyj5gIlAzZg==}
 
   '@types/fs-extra@11.0.3':
     resolution: {integrity: sha512-sF59BlXtUdzEAL1u0MSvuzWd7PdZvZEtnaVkzX5mjpdWTJ8brG0jUqve3jPCzSzvAKKMHTG8F8o/WMQLtleZdQ==}
@@ -1036,6 +1036,9 @@ packages:
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
 
+  brace-expansion@1.1.14:
+    resolution: {integrity: sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==}
+
   braces@3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
     engines: {node: '>=8'}
@@ -1141,8 +1144,8 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  commander@4.1.1:
-    resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
+  commander@6.2.1:
+    resolution: {integrity: sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==}
     engines: {node: '>= 6'}
 
   compare-func@2.0.0:
@@ -1259,8 +1262,8 @@ packages:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
     engines: {node: '>=6.0.0'}
 
-  dot-object@2.1.4:
-    resolution: {integrity: sha512-7FXnyyCLFawNYJ+NhkqyP9Wd2yzuo+7n9pGiYpkmXCTYa8Ci2U0eUNDVg5OuO5Pm6aFXI2SWN8/N/w7SJWu1WA==}
+  dot-object@2.1.5:
+    resolution: {integrity: sha512-xHF8EP4XH/Ba9fvAF2LDd5O3IITVolerVV6xvkxoM8zlGEiCUrggpAnHyOoKJKCrhvPcGATFAUwIujj7bRG5UA==}
     hasBin: true
 
   dot-prop@5.3.0:
@@ -1517,7 +1520,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -2065,6 +2068,9 @@ packages:
 
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
+
+  minimatch@3.1.5:
+    resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
@@ -4103,7 +4109,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.23.0
 
-  '@types/dot-object@2.1.4': {}
+  '@types/dot-object@2.1.6': {}
 
   '@types/fs-extra@11.0.3':
     dependencies:
@@ -4391,6 +4397,11 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
+  brace-expansion@1.1.14:
+    dependencies:
+      balanced-match: 1.0.2
+      concat-map: 0.0.1
+
   braces@3.0.2:
     dependencies:
       fill-range: 7.0.1
@@ -4486,7 +4497,7 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  commander@4.1.1: {}
+  commander@6.2.1: {}
 
   compare-func@2.0.0:
     dependencies:
@@ -4600,9 +4611,9 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  dot-object@2.1.4:
+  dot-object@2.1.5:
     dependencies:
-      commander: 4.1.1
+      commander: 6.2.1
       glob: 7.2.3
 
   dot-prop@5.3.0:
@@ -4898,7 +4909,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -5572,6 +5583,10 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.11
 
+  minimatch@3.1.5:
+    dependencies:
+      brace-expansion: 1.1.14
+
   minimist@1.2.8: {}
 
   ms@2.1.2: {}
@@ -6056,7 +6071,7 @@ snapshots:
     dependencies:
       '@istanbuljs/schema': 0.1.3
       glob: 7.2.3
-      minimatch: 3.1.2
+      minimatch: 3.1.5
 
   text-extensions@2.4.0: {}
 
