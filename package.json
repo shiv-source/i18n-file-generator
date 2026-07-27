@@ -45,7 +45,7 @@
     "dot-object": "^2.1.4",
     "fs-extra": "^11.1.1",
     "signale": "^1.4.0",
-    "yargs": "^17.7.2"
+    "yargs": "^18.1.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
